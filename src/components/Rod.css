@@ -1,0 +1,16 @@
+.rod {
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+  }
+  
+  .rod:before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    left: -5px;
+    top: 0;
+  }
